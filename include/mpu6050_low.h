@@ -3,7 +3,7 @@
 
 #include "driver/i2c.h"
 
-#include "mpu6050_types.h"
+#include "mpu6050_types_req.h"
 
 typedef struct MPU6050_t                MPU6050_t;
 

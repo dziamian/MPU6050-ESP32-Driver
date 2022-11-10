@@ -4,6 +4,7 @@
 #include <stdbool.h>
 
 #include "mpu6050_low.h"
+#include "mpu6050_types_res.h"
 #include "i2c.h"
 
 bool mpu6050__InitDevice(MPU6050_t *device, uint8_t *buffer, MPU6050_buffer_size_t bufferSize, i2c_port_t port, i2c_config_t *config);
