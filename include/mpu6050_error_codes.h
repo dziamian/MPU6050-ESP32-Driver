@@ -18,10 +18,29 @@
  * TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  *
  */
-#ifndef MPU6050_TESTS_H
-#define MPU6050_TESTS_H
+/**
+ * @file mpu6050_error_codes.h
+ * @author Damian Ślusarczyk
+ * @brief Contains error codes as an enumeration.
+ * 
+ * They describe the status of performed operations with MPU6050.
+ * 
+ */
+#ifndef MPU6050_ERROR_CODES_H
+#define MPU6050_ERROR_CODES_H
 
-void mpu6050_init_test(void);
-void mpu6050_reading_test(void);
+typedef enum mpu6050_error_t    mpu6050_error_t;
 
-#endif /* MPU6050_TESTS_H */
+/**
+ * @brief Describes the status of performed operation with MPU6050.
+ * 
+ */
+enum mpu6050_error_t
+{
+    MPU6050_OK = 0,     /**< No error occurred - everything went fine */
+    MPU6050_INV_ARG,    /**< An invalid argument has been passed into the function */
+    MPU6050_INV_CONF,   /**< An invalid driver configuration has been specified */
+    MPU6050_I2C_FAIL,   /**< I2C operation has failed */
+};
+
+#endif /* MPU6050_ERROR_CODES_H */

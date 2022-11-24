@@ -18,10 +18,29 @@
  * TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  *
  */
-#ifndef MPU6050_TESTS_H
-#define MPU6050_TESTS_H
+/**
+ * @file i2c_error_codes.h
+ * @author Damian Ślusarczyk
+ * @brief Contains error codes as an enumeration.
+ * 
+ * They describe the status of performed operations on the I2C bus.
+ */
+#ifndef I2C_ERROR_CODES_H
+#define I2C_ERROR_CODES_H
 
-void mpu6050_init_test(void);
-void mpu6050_reading_test(void);
+typedef enum i2c_error_t    i2c_error_t;
 
-#endif /* MPU6050_TESTS_H */
+/**
+ * @brief Describes the status of performed operation on the I2C bus.
+ * 
+ */
+enum i2c_error_t
+{
+    I2C_OK = 0,     /**< No error occurred - everything went fine */
+    I2C_INV_ARG,    /**< An invalid argument has been passed into the function */
+    I2C_INV_CONF,   /**< An invalid I2C configuration has been specified */
+    I2C_CONF_FAIL,  /**< I2C bus configuration has failed */
+    I2C_OP_FAIL     /**< I2C read/write operation has failed */
+};
+
+#endif /* I2C_ERROR_CODES_H */
