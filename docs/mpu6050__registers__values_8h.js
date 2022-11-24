@@ -1,0 +1,26 @@
+var mpu6050__registers__values_8h =
+[
+    [ "MPU6050_ACCEL_BYTES", "mpu6050__registers__values_8h.html#aca5e550db7e5c2193519ec8652c0d2c3", null ],
+    [ "MPU6050_ACCEL_CONFIG_SHIFT", "mpu6050__registers__values_8h.html#a4862ca036db981d9b3e3c6b7239efc7c", null ],
+    [ "MPU6050_ACCEL_X_LSB", "mpu6050__registers__values_8h.html#a1832c6d528509d12f9f7bc87cc52d7de", null ],
+    [ "MPU6050_ACCEL_X_MSB", "mpu6050__registers__values_8h.html#abc79f5cbff33d69e627067bc8a83d2c5", null ],
+    [ "MPU6050_ACCEL_Y_LSB", "mpu6050__registers__values_8h.html#a0a73385bde9621644867ed55fb20309d", null ],
+    [ "MPU6050_ACCEL_Y_MSB", "mpu6050__registers__values_8h.html#a6d035f67878f70b84a607780b222022e", null ],
+    [ "MPU6050_ACCEL_Z_LSB", "mpu6050__registers__values_8h.html#aa6dde658583290cb0d96d0d33084d9f8", null ],
+    [ "MPU6050_ACCEL_Z_MSB", "mpu6050__registers__values_8h.html#a0c9b10607ec2ffa5f7a960fe9503eb89", null ],
+    [ "MPU6050_GYRO_BYTES", "mpu6050__registers__values_8h.html#a8515254ea7432d421c8780b9ae6b90bf", null ],
+    [ "MPU6050_GYRO_CONFIG_SHIFT", "mpu6050__registers__values_8h.html#ad7b6b91238cf6c1007cbde2c47324d10", null ],
+    [ "MPU6050_GYRO_X_LSB", "mpu6050__registers__values_8h.html#acdeb8aaee6621a65dc6d50ecf5996d41", null ],
+    [ "MPU6050_GYRO_X_MSB", "mpu6050__registers__values_8h.html#ae887abfd6f8dc1aaf9d87025d4e44371", null ],
+    [ "MPU6050_GYRO_Y_LSB", "mpu6050__registers__values_8h.html#a88c81ebd5946248f28fb6bdb43385df5", null ],
+    [ "MPU6050_GYRO_Y_MSB", "mpu6050__registers__values_8h.html#a04f0d0a3f2361b742d10723abfb31210", null ],
+    [ "MPU6050_GYRO_Z_LSB", "mpu6050__registers__values_8h.html#adfa4a1d042abf986d0e46d595bf6952c", null ],
+    [ "MPU6050_GYRO_Z_MSB", "mpu6050__registers__values_8h.html#ab204baf13676b45e6d04b6270067bba5", null ],
+    [ "MPU6050_PWR_MGMT_1_CYCLE", "mpu6050__registers__values_8h.html#aee92ad413e1c512405ccc0fa170f036c", null ],
+    [ "MPU6050_PWR_MGMT_1_RESET", "mpu6050__registers__values_8h.html#a20199efccd92d7d37fecb8bd26029f3a", null ],
+    [ "MPU6050_PWR_MGMT_1_SLEEP", "mpu6050__registers__values_8h.html#af4a58b6f8f88c40bfa61742a113604eb", null ],
+    [ "MPU6050_PWR_MGMT_1_TEMP_DIS", "mpu6050__registers__values_8h.html#ae6ece2aeda61a737f2d4db0094254437", null ],
+    [ "MPU6050_TEMP_BYTES", "mpu6050__registers__values_8h.html#aaf6123399f63b483196560bde250b3a6", null ],
+    [ "MPU6050_TEMP_LSB", "mpu6050__registers__values_8h.html#a8cf69167b39c454fab2bc56d57a5f6da", null ],
+    [ "MPU6050_TEMP_MSB", "mpu6050__registers__values_8h.html#ac195c7c4aebcf8950315daacf7d734a8", null ]
+];
