@@ -101,8 +101,8 @@ Introduction</h1>
 <h1><a class="anchor" id="autotoc_md2"></a>
 Build</h1>
 <p >To include the component into your ESP-IDF project, you need to create <code>CMakeLists.txt</code> file containing: </p><div class="fragment"><div class="line">idf_component_register(</div>
-<div class="line">    SRC_DIRS &quot;.&quot; </div>
-<div class="line">    INCLUDE_DIRS &quot;/include&quot;</div>
+<div class="line">    SRC_DIRS &quot;.&quot; &quot;com&quot;</div>
+<div class="line">    INCLUDE_DIRS &quot;/include&quot; &quot;com/include&quot;</div>
 <div class="line">    REQUIRES &quot;nvs_flash&quot;</div>
 <div class="line">)</div>
 </div><!-- fragment --><p >Consult <a href="https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/build-system.html">ESP-IDF documentation</a> for more details about build system.</p>

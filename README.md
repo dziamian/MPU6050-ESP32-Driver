@@ -11,8 +11,8 @@ It is written and tested for v4.4.2 of the [ESP-IDF](https://github.com/espressi
 To include the component into your ESP-IDF project, you need to create `CMakeLists.txt` file containing:
 ```cmake
 idf_component_register(
-    SRC_DIRS "." 
-    INCLUDE_DIRS "/include"
+    SRC_DIRS "." "com"
+    INCLUDE_DIRS "/include" "com/include"
     REQUIRES "nvs_flash"
 )
 ```
