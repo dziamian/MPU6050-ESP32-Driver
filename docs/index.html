@@ -133,6 +133,7 @@ Example</h1>
 <div class="line"><a class="code hl_struct" href="struct_m_p_u6050__t.html">MPU6050_t</a> device;</div>
 <div class="line">i2c_config_t i2cConfig;</div>
 <div class="line"> </div>
+<div class="line"><span class="comment">// Initialize NVS flash - check https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/storage/nvs_flash.html</span></div>
 <div class="line"> </div>
 <div class="line"><span class="keywordflow">if</span> (<a class="code hl_enumvalue" href="i2c__error__codes_8h.html#a4e07871ca4ae83f158fa20d135b309b2aeceba296bdda2b90e8835c431fe7a72a">I2C_OK</a> != i2c__MasterInitConfigDefault(MPU6050_I2C_SDA_GPIO, MPU6050_I2C_SCL_GPIO, MPU6050_I2C_CLK_SPEED, &amp;i2cConfig))</div>
 <div class="line">{</div>

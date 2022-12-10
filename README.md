@@ -48,7 +48,7 @@ uint8_t deviceBuffer[MPU6050_BUFFER_SIZE];
 MPU6050_t device;
 i2c_config_t i2cConfig;
 
-//! Initialize NVS flash - check https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/storage/nvs_flash.html
+// Initialize NVS flash - check https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/storage/nvs_flash.html
 
 if (I2C_OK != i2c__MasterInitConfigDefault(MPU6050_I2C_SDA_GPIO, MPU6050_I2C_SCL_GPIO, MPU6050_I2C_CLK_SPEED, &i2cConfig))
 {
